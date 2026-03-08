@@ -1,4 +1,12 @@
+"""
+Convert Streamlit app to static HTML for Amplify hosting
+This creates a static version that calls Lambda functions for backend
+"""
 
+import os
+
+# Create static HTML version of the dashboard
+html_content = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -333,3 +341,11 @@
     </script>
 </body>
 </html>
+"""
+
+# Write the static HTML
+with open('dashboard.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print("✓ Static dashboard created: dashboard.html")
+print("✓ Next: Deploy Lambda functions and update API_ENDPOINT")
