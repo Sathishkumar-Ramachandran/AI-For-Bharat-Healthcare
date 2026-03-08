@@ -1,0 +1,16 @@
+medicine_name,category,stock,reorder_level,unit_price,substitute,manufacturer
+Paracetamol,Analgesic,500,100,2.50,Ibuprofen,PharmaCorp
+Ibuprofen,Analgesic,300,100,3.00,Paracetamol,MediLabs
+Amoxicillin,Antibiotic,200,50,5.50,Azithromycin,BioPharm
+Azithromycin,Antibiotic,150,50,8.00,Amoxicillin,HealthMed
+Omeprazole,Antacid,400,100,4.00,Pantoprazole,GastroCare
+Cetirizine,Antihistamine,350,100,2.00,Loratadine,AllergyMeds
+Metformin,Antidiabetic,250,80,6.00,Glipizide,DiabetesCare
+Aspirin,Antiplatelet,600,150,1.50,Clopidogrel,CardioMed
+Atorvastatin,Statin,180,60,7.50,Simvastatin,HeartHealth
+Lisinopril,ACE Inhibitor,220,70,5.00,Enalapril,BPControl
+Salbutamol,Bronchodilator,120,40,9.00,Terbutaline,RespiraCare
+Insulin,Hormone,80,30,25.00,None,DiabetesCare
+Ciprofloxacin,Antibiotic,90,40,6.50,Levofloxacin,BioPharm
+Prednisolone,Corticosteroid,160,50,4.50,Dexamethasone,InflamCare
+Diazepam,Anxiolytic,70,30,8.50,Lorazepam,NeuroMed

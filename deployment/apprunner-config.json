@@ -1,0 +1,19 @@
+{
+  "ImageRepository": {
+    "ImageIdentifier": "YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/healthcare-system:latest",
+    "ImageRepositoryType": "ECR",
+    "ImageConfiguration": {
+      "Port": "8000",
+      "RuntimeEnvironmentVariables": {
+        "AWS_REGION": "us-east-1",
+        "NOVA_MODEL_ID": "us.amazon.nova-lite-v1:0",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "StartCommand": "python run_api.py"
+    }
+  },
+  "AuthenticationConfiguration": {
+    "AccessRoleArn": "arn:aws:iam::YOUR_ACCOUNT_ID:role/AppRunnerECRAccessRole"
+  },
+  "AutoDeploymentsEnabled": true
+}

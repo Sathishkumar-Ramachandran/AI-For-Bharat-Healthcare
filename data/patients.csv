@@ -1,0 +1,6 @@
+patient_id,name,age,symptoms,insurance
+P001,John Doe,45,fever;headache,BlueCross
+P002,Jane Smith,32,cough;sore throat,Aetna
+P003,Robert Johnson,67,chest pain;shortness of breath,Medicare
+P004,Maria Garcia,28,nausea;vomiting,BlueCross
+P005,David Lee,55,back pain;fatigue,Aetna
